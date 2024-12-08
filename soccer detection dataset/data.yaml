@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['goal', 'person', 'sports ball']
+
+roboflow:
+  workspace: soccer-m74r8
+  project: soccer-detectiin
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/soccer-m74r8/soccer-detectiin/dataset/6
